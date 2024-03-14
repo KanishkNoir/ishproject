@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.jpg');
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    background-color: #ccc;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #999;
+    color: #fff;
+}
+
+nav a:visited {
+    color: #333;
+}
+
+
+section {
+    padding: 20px;
+}
+
+section img {
+    display: block; /* Ensure the image is a block element */
+    margin: 0 auto; /* Center-align the image horizontally */
+}
+
+h2 {
+    color: #333;
+}
+
+.highlight {
+    background-color: yellow; /* You can adjust the background color to your preference */
+}
+
+#section1 {
+    background-color: #E8F6F3; /* Light blue */
+}
+
+#section2 {
+    background-color: #F6E3DF; /* Light orange */
+}
+
+#section3 {
+    background-color: #F3F6E8; /* Light green */
+}
+
+#section4 {
+    background-color: #E8F3F6; /* Light cyan */
+}
+
+#section5 {
+    background-color: #f0aee2; /* Light purple */
+}
+
+.container {
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* This centers the container */
+    padding: 0 20px; /* Optional padding to provide some spacing */
+}
